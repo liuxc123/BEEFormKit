@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BEEFormKit_Example' do
+  pod 'BEEFormKit', :path => '../'
+
+  target 'BEEFormKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

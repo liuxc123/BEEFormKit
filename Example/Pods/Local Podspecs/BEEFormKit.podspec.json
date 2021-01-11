@@ -27,7 +27,12 @@
       "frameworks": [
         "UIKit",
         "Foundation"
-      ]
+      ],
+      "dependencies": {
+        "BEEFormKit/Extension": [
+
+        ]
+      }
     },
     {
       "name": "Extension",

@@ -2,7 +2,8 @@ PODS:
   - BEEFormKit (1.0.0):
     - BEEFormKit/Core (= 1.0.0)
     - BEEFormKit/Extension (= 1.0.0)
-  - BEEFormKit/Core (1.0.0)
+  - BEEFormKit/Core (1.0.0):
+    - BEEFormKit/Extension
   - BEEFormKit/Extension (1.0.0)
   - IBPCollectionViewCompositionalLayout (0.6.7)
 
@@ -19,7 +20,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BEEFormKit: 9377437a7756a5859782f68ff1f9425de7c29e19
+  BEEFormKit: 03f5fc3a9c2642b0ccfab55261c093337f43387f
   IBPCollectionViewCompositionalLayout: 06cf9aa021fd80807385d5c49ece4364609a0c97
 
 PODFILE CHECKSUM: ca82fe84cd39bd02fdeac64dd1a0ba4e999e585b

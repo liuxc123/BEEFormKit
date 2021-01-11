@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |ss|
     ss.source_files = 'BEEFormKit/Classes/Sources/**/*.{swift}'
     ss.frameworks = 'UIKit', 'Foundation'
+    ss.dependency 'BEEFormKit/Extension'
   end
 
   s.subspec 'Extension' do |ss|

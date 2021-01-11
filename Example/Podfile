@@ -1,9 +1,11 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'BEEFormKit_Example' do
   pod 'BEEFormKit', :path => '../'
+
+  pod 'IBPCollectionViewCompositionalLayout'
 
   target 'BEEFormKit_Tests' do
     inherit! :search_paths

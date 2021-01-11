@@ -1,0 +1,1277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018F1D821C9CB5FAC6B1AFCFFBD8D72C /* IBPCollectionCompositionalLayoutSolverResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BB227E0C310FB0669B15B51E57F8668 /* IBPCollectionCompositionalLayoutSolverResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		037904199279FF2E6A2B1F2C81EC283E /* IBPNSCollectionLayoutGroupCustomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACAEA9A922B1E221EE15B33E22334B8 /* IBPNSCollectionLayoutGroupCustomItem.m */; };
+		03E88D146EADFDD72E6FD10ED7289745 /* UICollectionView+ARDynamicCacheHeightLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F20D07A66DE7887F294D7F893C61E804 /* UICollectionView+ARDynamicCacheHeightLayoutCell.m */; };
+		08386EC15D6CC3DFCE56D82A558F4FE8 /* IBPNSCollectionLayoutEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DB6AE1B62470101365A2BBE6E79BDB5 /* IBPNSCollectionLayoutEnvironment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C41B4904B29B76F893E4CC7CC3D7312 /* IBPNSCollectionLayoutSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8A052822566DBA0468E5B9AE8D77BC /* IBPNSCollectionLayoutSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CE5D9FAC0732B0A57C2FEE645BB9945 /* IBPNSCollectionLayoutEdgeSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D44F442540E2EBA7CAF5670494F412 /* IBPNSCollectionLayoutEdgeSpacing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAC6E685147F17BC459DD87BE820D2 /* IBPNSCollectionLayoutDecorationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B8C4A59DE309A2E62A69CC3BEA13D /* IBPNSCollectionLayoutDecorationItem.m */; };
+		132CA04E7E2CFABF482DCEACE84F47A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		140DD439C804AC6B195FD50D142C37ED /* IBPNSCollectionLayoutAnchor.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F0FE4036011D14911465BEFE82CCC0 /* IBPNSCollectionLayoutAnchor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1942958B5DAC1EABA0B3A3396FA54337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		1BBCF154B2A4C5918428B00FC6EBCED3 /* IBPNSCollectionLayoutSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C8ADC1496E60951C543CCA6406E85B /* IBPNSCollectionLayoutSection.m */; };
+		22DF6CFC2445514ECB51654A8B2255CF /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3E8DB0254805F9835086C2203FA9F8 /* ConfigurableCell.swift */; };
+		303A906125CF20098502E1BDBFD640A0 /* IBPNSCollectionLayoutGroup_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A949F5E583D4BA8EEE051BB59D2C79A8 /* IBPNSCollectionLayoutGroup_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		331FA2ED4DF2C36C03152BBA825DB7F4 /* FormDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048346EEA84770C5CBEC89D4642F24E6 /* FormDirector.swift */; };
+		33D5A421D3A0DE02EA6AECE9B2C6C125 /* FormItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69DCA4AF0C1198A459DBA118C87D3BF /* FormItem.swift */; };
+		3972AD6D566F38F28B1282FDE0965E00 /* IBPNSRectAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D428CA816FDDC1E1EDCE15F32994CB /* IBPNSRectAlignment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C30D5BF7650DA29922C2780B854DAEF /* IBPUICollectionViewCompositionalLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C37B736BE4710A73D0C8C9E3F5B076 /* IBPUICollectionViewCompositionalLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		439DE7816CAF8D205C2680223555C4C9 /* IBPNSCollectionLayoutSize_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E923DFD075FED10F0B90F3CBD89518C /* IBPNSCollectionLayoutSize_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D43DFE6A80BE37504374A751485EE4F /* FormElementKindItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E900A94F8E3E379B1F0FCC2B6F1980 /* FormElementKindItem.swift */; };
+		4F618B0E5967F47755AA37615E4F4F68 /* IBPNSCollectionLayoutSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D59704AC70B4E39E33EC8A96497C6A /* IBPNSCollectionLayoutSpacing.m */; };
+		4FD56A339CCC5930A5C84FBC5475031A /* IBPNSCollectionLayoutGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C6321937F0569F1F8AD4F803AA0E2342 /* IBPNSCollectionLayoutGroup.m */; };
+		52208EB14C2589E36ED4888A79DA1A10 /* FormSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9657F34B1917C3EFB759F8BBE25215FF /* FormSection.swift */; };
+		52E9781C23DB960335D370C26FF17E68 /* IBPCollectionCompositionalLayoutSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B3DFA3BB82947B921E0986708B4B3 /* IBPCollectionCompositionalLayoutSolver.m */; };
+		53973606E89542BB9782CC821496D7EE /* FormElementKindItemAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1FC33D3C7C6E3A354BB8962BE6A57 /* FormElementKindItemAction.swift */; };
+		5A2F983C424C84C1FAAF7C0CA56EA3C4 /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 67FD29C7D47AF0C0BB6842143D3950E4 /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B8BA72F68F93F592200ED09312CF0FA /* IBPNSCollectionLayoutGroupCustomItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B2B56141E372808DC6833CBC2550E0 /* IBPNSCollectionLayoutGroupCustomItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DA0016BCD6305164249D64F678284BE /* FormItemAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE698490F1ED05CD349A5DC1DA87DA1A /* FormItemAction.swift */; };
+		5F7FEBC876C4A0F69E85DE95A296A4F6 /* Pods-BEEFormKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF961129283DD639CA027F50950D7F1 /* Pods-BEEFormKit_Tests-dummy.m */; };
+		633594B2F1A640D62E6F72B6488AC755 /* IBPNSCollectionLayoutDimension.m in Sources */ = {isa = PBXBuildFile; fileRef = FC123F9F5155A0A0FF48F170E4897FE1 /* IBPNSCollectionLayoutDimension.m */; };
+		638DCEACEB633194F4EB470299FD5202 /* IBPNSCollectionLayoutSection_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3395552A361043A523D23CB6219F1FA0 /* IBPNSCollectionLayoutSection_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6511BCF82FAEAEAA5650C45AFFCFBBED /* IBPUICollectionViewCompositionalLayoutConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 07684DDFAF55229E749F6DE44C4949B6 /* IBPUICollectionViewCompositionalLayoutConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFA3B3EAD06B3F412774392660B4734 /* UICollectionView+ARDynamicCacheHeightLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3C11DAC9635C7175501FA315C810F2 /* UICollectionView+ARDynamicCacheHeightLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B8AB752EA43EBCE93F3BF2DAAE943FD /* IBPCollectionViewOrthogonalScrollerSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C8E99363A3B61C4F992CF76482ED70 /* IBPCollectionViewOrthogonalScrollerSectionController.m */; };
+		711CE71B2EFA01096B3D438D175F80D5 /* IBPCollectionCompositionalLayoutSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3CD94C265BCEB0BAA34B515971C4F1 /* IBPCollectionCompositionalLayoutSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		729CFC1F49C329B1E77CF007B3A14BA4 /* IBPNSCollectionLayoutEdgeSpacing_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A8D5A4F95A8478AAE4C9AEC59C02651 /* IBPNSCollectionLayoutEdgeSpacing_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73A1380FB098BACB92F70E2D42E89D9A /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CBDD94371F1E26CA7DDC3DAE65515D /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.m */; };
+		7BDBACFFCE314482A4DBA1D498273749 /* FormCellAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED372081164E4ED621B567256138A688 /* FormCellAction.swift */; };
+		7C55C80316ED8B805F27C627AB0857B9 /* IBPNSCollectionLayoutSupplementaryItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A23BC415DA3C3DFA561255486E6E1BB1 /* IBPNSCollectionLayoutSupplementaryItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80B79C46DED0F67742D8D9EF9009722C /* IBPUICollectionViewCompositionalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F90F8BB960228F7D7D36D778EAD01AFC /* IBPUICollectionViewCompositionalLayout.m */; };
+		8833675A1D62ADC2FC886B2E6C6218AC /* IBPNSCollectionLayoutEdgeSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E561C30B139582571133E5FE1509B90 /* IBPNSCollectionLayoutEdgeSpacing.m */; };
+		885EF9A2D4F6DC001F44B768094E1457 /* Pods-BEEFormKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B481C82E6ADAB1921D29E4080F03C18A /* Pods-BEEFormKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		895902F4086684AE77DC181A17B12CB2 /* IBPNSCollectionLayoutAnchor.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C349939F1F78A79FE432604158E1F5 /* IBPNSCollectionLayoutAnchor.m */; };
+		8AB5779D577DD731DBDA7F8AF4EC08C6 /* IBPNSDirectionalEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = B21C587CF0E729A544E78FA8953BFA03 /* IBPNSDirectionalEdgeInsets.m */; };
+		8B1B8364163E35E5B113CDE0F037FA45 /* IBPNSDirectionalRectEdge.h in Headers */ = {isa = PBXBuildFile; fileRef = F14EB4FAAAA08D15990F7A7421C00AF2 /* IBPNSDirectionalRectEdge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C83E8486C3A3825C0DC6F531BD15B52 /* IBPNSCollectionLayoutItem_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2B7ABD22CC82B8E7740201E803875D /* IBPNSCollectionLayoutItem_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8CE3AB8837C5BBF84BC8C4FE7B6CF98A /* IBPNSCollectionLayoutSupplementaryItem_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA5C45002A97028E4A98EB979EC60E7 /* IBPNSCollectionLayoutSupplementaryItem_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F595164C659C078A7139600CD89361D /* FormItemSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D972FF9B658B27AF070F0EB11911B /* FormItemSizeCalculator.swift */; };
+		9345BD5EB68CDFA775763B231E039B8D /* Pods-BEEFormKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEFC7CFF97D4400E1CC410A7B1C818D /* Pods-BEEFormKit_Example-dummy.m */; };
+		93550F5E7AE2714B6E8491EC15D146AB /* BEEFormKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F09893487A54132810A08343220FFB /* BEEFormKit-dummy.m */; };
+		9EE09994BE02145D71C0659B786C05C6 /* FormKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41DE1FF89D08858E2B7CA2373C7B84E /* FormKit.swift */; };
+		9F9854118B11E5A4B199F63DA54A8118 /* IBPNSCollectionLayoutSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6B5670EC0D096D488E4A4CC25EE9D5 /* IBPNSCollectionLayoutSpacing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A453B862FC2B7CCBBB656BF6CEE01C71 /* FormItemLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568B605F88B5997190133B32EA9BCB5 /* FormItemLayout.swift */; };
+		A4E13E540A29456A0090D6C71E6A9882 /* IBPNSCollectionLayoutDimension.h in Headers */ = {isa = PBXBuildFile; fileRef = C2546139A33F03A760C1869E6B6C75A9 /* IBPNSCollectionLayoutDimension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A58A7446FB9E5128A7048CC48611E582 /* IBPUICollectionViewCompositionalLayoutConfiguration_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A477A43D8908AEA64F0C432DA68283A /* IBPUICollectionViewCompositionalLayoutConfiguration_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A9BF06778222526E06A1392610A5BDCD /* FormElementKindViewAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CC66F7C8953DE68BD97164B966249F /* FormElementKindViewAction.swift */; };
+		AA43315BCDEB548D5E533537A900D645 /* ConfigurableElementKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81667EF5EB3513CC67EFCEDEA46DD787 /* ConfigurableElementKind.swift */; };
+		AA475CEFC3FBA6B6319A8DC86D0B6155 /* FormRegisterer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D14E103CEB0E7BB2A7D744ECDFCE8D /* FormRegisterer.swift */; };
+		B1758E1F02627F989064C5703760EC36 /* IBPNSCollectionLayoutEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B458751A40414E01C70DE585E046D /* IBPNSCollectionLayoutEnvironment.m */; };
+		B2DADB3AEF234B7C4EBDC96CD5FF9A81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		B65351A9BFC1FC60EB1FA14408A85FD2 /* IBPNSCollectionLayoutItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF4BFD70E73933CC94D07BD7D3DA695 /* IBPNSCollectionLayoutItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8350317965A1354C6F36889C187A79D /* IBPCollectionCompositionalLayoutSolverResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D639525F9F5AB0375372E03BCAF7BC5C /* IBPCollectionCompositionalLayoutSolverResult.m */; };
+		BC871DD4B2EACD84E0C9E8536E3B7EE7 /* IBPCollectionViewOrthogonalScrollerSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA06B19C87EBCF8159460693A5A48175 /* IBPCollectionViewOrthogonalScrollerSectionController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C05ADD03F4095002C3C9A381AF2C5C21 /* IBPUICollectionViewCompositionalLayoutConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E37A63364D8416FAE8839FC12B9E1 /* IBPUICollectionViewCompositionalLayoutConfiguration.m */; };
+		C23E438A1EEE8108F6AA79C78D3E3492 /* IBPNSCollectionLayoutSupplementaryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2964E4B6539FC9485FC2B324A9EBEA /* IBPNSCollectionLayoutSupplementaryItem.m */; };
+		C29462F471DFBAFE5AE22D6E99BE438D /* IBPCollectionViewCompositionalLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA6C7EA0F5DFDD1C73366E0B9B28A62 /* IBPCollectionViewCompositionalLayout-dummy.m */; };
+		C2A6D936BB39B5FD62D5108014060F44 /* IBPNSCollectionLayoutDecorationItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F70F08505FB676F4D8FF86BCB94EB6 /* IBPNSCollectionLayoutDecorationItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4593ACE47E1EB5667CAFFB334F7F052 /* IBPNSCollectionLayoutContainer_Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6C85173DC7195F525DFB3E01497DFD /* IBPNSCollectionLayoutContainer_Protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C688E5CD25C13850C5027D033AEBDD18 /* IBPUICollectionLayoutSectionOrthogonalScrollingBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 92303ACDCF2E9650C6B6885CC53F72B3 /* IBPUICollectionLayoutSectionOrthogonalScrollingBehavior.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF38AEA9A3E1DAF8CA40ED3A75FB4EAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		D09C3BD6D6A7AC3A8D04E9DF9A8582F1 /* IBPNSCollectionLayoutGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D53D3A5BE976741764D7BA9450A212 /* IBPNSCollectionLayoutGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D383F7F64A0739DEAF8F37FE8D9B7A4A /* IBPNSCollectionLayoutContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BD7A2117DD7D13ECB4E0B81DD30DC3 /* IBPNSCollectionLayoutContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3B88321D17781C0CDB98F977A3FC5AA /* BEEFormKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2711AD7D295DE54D64DB8F131795E7D /* BEEFormKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA6136167E9D1A2AD7A05FDFEC9D8932 /* Pods-BEEFormKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EB22BD9083BF30B67FC683A0002780 /* Pods-BEEFormKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC306158D653E81524AA8000680C6033 /* IBPNSCollectionLayoutForwardCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F89A00907A315AEC038B8DF663B3DE /* IBPNSCollectionLayoutForwardCompatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE867215161BDAE9B420ADF97A4E73D2 /* IBPNSCollectionLayoutSpacing_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EC521A59C5B22E707745DDA40BA054 /* IBPNSCollectionLayoutSpacing_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E47A8EB8A4A8F1E58A04ECBE31316A3E /* IBPNSCollectionLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B29BF76BAA9EBF43B0CEEDBED974BF9E /* IBPNSCollectionLayoutItem.m */; };
+		E8A5946E3F8FE11B888EDB225C82DBD4 /* IBPNSCollectionLayoutSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 7182B14A983E86DD9F32AD129C461D12 /* IBPNSCollectionLayoutSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBB67B4256CAB321AF5EFC5B0E9B60B9 /* IBPNSCollectionLayoutVisibleItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F6117F536DBDE96D567002703FAE91EF /* IBPNSCollectionLayoutVisibleItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC6FDCB8F8D41D5CAFF85055D1788AE1 /* IBPNSCollectionLayoutAnchor_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EBA9A4D883157409A67F594C43AA76 /* IBPNSCollectionLayoutAnchor_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED3D97306B3C81D4ECCC3134B966342C /* IBPNSCollectionLayoutSize.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4B4F945DEFAC5C81771C789F2D21A0 /* IBPNSCollectionLayoutSize.m */; };
+		ED5183EE6CA09091A3F1D26CBCF4A0BB /* IBPCollectionViewCompositionalLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B82A17489D63D07DC8DB565225D1188A /* IBPCollectionViewCompositionalLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDA0EACB1B0C41077572A87A96CA0310 /* IBPCollectionViewCompositionalLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 08859F60E2237917ADF031B7306E1E2F /* IBPCollectionViewCompositionalLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F23455D52768E441962BD0DFAA3A6530 /* IBPNSCollectionLayoutContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 772CFE4CFD005D22566771A09F26E43F /* IBPNSCollectionLayoutContainer.m */; };
+		F4136FB43721A84276FA4B56F1FDB355 /* IBPNSCollectionLayoutBoundarySupplementaryItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B0C778446E6ED42B0E4692A791D330 /* IBPNSCollectionLayoutBoundarySupplementaryItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F74E1868883EB27ADF6A8EBD1304898C /* IBPNSCollectionLayoutEnvironment_Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CEC148311F76D94496528DE763A8B7A /* IBPNSCollectionLayoutEnvironment_Protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FABB2B357A27500142D6F8906E442FE8 /* IBPNSDirectionalEdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FC042BAB59155D0B44739C9628360AB /* IBPNSDirectionalEdgeInsets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE11EE9421D9832301D16F01BC043081 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		FEF3DC5B3C7E36851AA810F1D6A32244 /* IBPNSCollectionLayoutBoundarySupplementaryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E90EBF11B509DE122AA1B3B3F300AE /* IBPNSCollectionLayoutBoundarySupplementaryItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00717EA686AD569E1E6C28106538FB75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6D33972ECD5C3EBB2CA1DDF16BCE422;
+			remoteInfo = IBPCollectionViewCompositionalLayout;
+		};
+		2BF5E5B03F61A4E291D27458CF33ECBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A90B97FC8613ADCC8123FB382237C60;
+			remoteInfo = "Pods-BEEFormKit_Example";
+		};
+		B88573121590363DEA2A8B3F2988BDE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D870B60112982FC1799F01E336F810F6;
+			remoteInfo = BEEFormKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0144D32F5765FC32CDCAF03640F28D14 /* BEEFormKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEEFormKit.release.xcconfig; sourceTree = "<group>"; };
+		048346EEA84770C5CBEC89D4642F24E6 /* FormDirector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDirector.swift; path = BEEFormKit/Classes/Sources/FormDirector.swift; sourceTree = "<group>"; };
+		07684DDFAF55229E749F6DE44C4949B6 /* IBPUICollectionViewCompositionalLayoutConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPUICollectionViewCompositionalLayoutConfiguration.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPUICollectionViewCompositionalLayoutConfiguration.h; sourceTree = "<group>"; };
+		07B2B56141E372808DC6833CBC2550E0 /* IBPNSCollectionLayoutGroupCustomItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutGroupCustomItem.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSCollectionLayoutGroupCustomItem.h; sourceTree = "<group>"; };
+		07BE3031DD14DFCF4D6B56FC9CFB8D2B /* BEEFormKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BEEFormKit.modulemap; sourceTree = "<group>"; };
+		08859F60E2237917ADF031B7306E1E2F /* IBPCollectionViewCompositionalLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPCollectionViewCompositionalLayout.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPCollectionViewCompositionalLayout.h; sourceTree = "<group>"; };
+		0A3CD94C265BCEB0BAA34B515971C4F1 /* IBPCollectionCompositionalLayoutSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPCollectionCompositionalLayoutSolver.h; path = Sources/IBPCollectionViewCompositionalLayout/IBPCollectionCompositionalLayoutSolver.h; sourceTree = "<group>"; };
+		0DDF6C70EC393AEE44A4373D49EA9660 /* BEEFormKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BEEFormKit-Info.plist"; sourceTree = "<group>"; };
+		0E561C30B139582571133E5FE1509B90 /* IBPNSCollectionLayoutEdgeSpacing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPNSCollectionLayoutEdgeSpacing.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutEdgeSpacing.m; sourceTree = "<group>"; };
+		114E3A38D681AD21A906545A721705C4 /* Pods-BEEFormKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BEEFormKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1568B605F88B5997190133B32EA9BCB5 /* FormItemLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormItemLayout.swift; path = BEEFormKit/Classes/Sources/FormItemLayout.swift; sourceTree = "<group>"; };
+		165F9D5B9338FDB22097648E49C77721 /* Pods-BEEFormKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEEFormKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		17D14E103CEB0E7BB2A7D744ECDFCE8D /* FormRegisterer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormRegisterer.swift; path = BEEFormKit/Classes/Sources/FormRegisterer.swift; sourceTree = "<group>"; };
+		18F70F08505FB676F4D8FF86BCB94EB6 /* IBPNSCollectionLayoutDecorationItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutDecorationItem.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSCollectionLayoutDecorationItem.h; sourceTree = "<group>"; };
+		1A2B7ABD22CC82B8E7740201E803875D /* IBPNSCollectionLayoutItem_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutItem_Private.h; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutItem_Private.h; sourceTree = "<group>"; };
+		1C7554B362DC51D83B83D5B209360D5E /* Pods-BEEFormKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BEEFormKit_Tests.modulemap"; sourceTree = "<group>"; };
+		1D5B8C4A59DE309A2E62A69CC3BEA13D /* IBPNSCollectionLayoutDecorationItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPNSCollectionLayoutDecorationItem.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutDecorationItem.m; sourceTree = "<group>"; };
+		21D53D3A5BE976741764D7BA9450A212 /* IBPNSCollectionLayoutGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutGroup.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSCollectionLayoutGroup.h; sourceTree = "<group>"; };
+		2C9B3DFA3BB82947B921E0986708B4B3 /* IBPCollectionCompositionalLayoutSolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPCollectionCompositionalLayoutSolver.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPCollectionCompositionalLayoutSolver.m; sourceTree = "<group>"; };
+		2DB6AE1B62470101365A2BBE6E79BDB5 /* IBPNSCollectionLayoutEnvironment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutEnvironment.h; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutEnvironment.h; sourceTree = "<group>"; };
+		30EB22BD9083BF30B67FC683A0002780 /* Pods-BEEFormKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BEEFormKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3395552A361043A523D23CB6219F1FA0 /* IBPNSCollectionLayoutSection_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutSection_Private.h; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutSection_Private.h; sourceTree = "<group>"; };
+		36EBA9A4D883157409A67F594C43AA76 /* IBPNSCollectionLayoutAnchor_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutAnchor_Private.h; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutAnchor_Private.h; sourceTree = "<group>"; };
+		373690C59060B254FCBE0723F06180E8 /* BEEFormKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BEEFormKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3A8D5A4F95A8478AAE4C9AEC59C02651 /* IBPNSCollectionLayoutEdgeSpacing_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutEdgeSpacing_Private.h; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutEdgeSpacing_Private.h; sourceTree = "<group>"; };
+		3BB227E0C310FB0669B15B51E57F8668 /* IBPCollectionCompositionalLayoutSolverResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPCollectionCompositionalLayoutSolverResult.h; path = Sources/IBPCollectionViewCompositionalLayout/IBPCollectionCompositionalLayoutSolverResult.h; sourceTree = "<group>"; };
+		40E900A94F8E3E379B1F0FCC2B6F1980 /* FormElementKindItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormElementKindItem.swift; path = BEEFormKit/Classes/Sources/FormElementKindItem.swift; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4BA72AD8F9945375EAC5A54DDC2EE457 /* IBPCollectionViewCompositionalLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IBPCollectionViewCompositionalLayout-Info.plist"; sourceTree = "<group>"; };
+		4C2E37A63364D8416FAE8839FC12B9E1 /* IBPUICollectionViewCompositionalLayoutConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPUICollectionViewCompositionalLayoutConfiguration.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPUICollectionViewCompositionalLayoutConfiguration.m; sourceTree = "<group>"; };
+		4D1B458751A40414E01C70DE585E046D /* IBPNSCollectionLayoutEnvironment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPNSCollectionLayoutEnvironment.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutEnvironment.m; sourceTree = "<group>"; };
+		559BCD564BFC5F6D7A8A100B2702E9F4 /* IBPCollectionViewCompositionalLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IBPCollectionViewCompositionalLayout.modulemap; sourceTree = "<group>"; };
+		586CE53AABA2030551C2BD1F8E8B7D7B /* Pods_BEEFormKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BEEFormKit_Example.framework; path = "Pods-BEEFormKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CC66F7C8953DE68BD97164B966249F /* FormElementKindViewAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormElementKindViewAction.swift; path = BEEFormKit/Classes/Sources/FormElementKindViewAction.swift; sourceTree = "<group>"; };
+		5A8BB824131AC4D31E2F86E7C5CB168B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5CEC148311F76D94496528DE763A8B7A /* IBPNSCollectionLayoutEnvironment_Protocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutEnvironment_Protocol.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSCollectionLayoutEnvironment_Protocol.h; sourceTree = "<group>"; };
+		67FD29C7D47AF0C0BB6842143D3950E4 /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.h; path = Sources/IBPCollectionViewCompositionalLayout/IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.h; sourceTree = "<group>"; };
+		6A9BDF7E6745CD5BB3EC13BBD1C031D5 /* Pods-BEEFormKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEEFormKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		6ACAEA9A922B1E221EE15B33E22334B8 /* IBPNSCollectionLayoutGroupCustomItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPNSCollectionLayoutGroupCustomItem.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutGroupCustomItem.m; sourceTree = "<group>"; };
+		6C6B5670EC0D096D488E4A4CC25EE9D5 /* IBPNSCollectionLayoutSpacing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutSpacing.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSCollectionLayoutSpacing.h; sourceTree = "<group>"; };
+		6CF4BFD70E73933CC94D07BD7D3DA695 /* IBPNSCollectionLayoutItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutItem.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSCollectionLayoutItem.h; sourceTree = "<group>"; };
+		70B0C778446E6ED42B0E4692A791D330 /* IBPNSCollectionLayoutBoundarySupplementaryItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutBoundarySupplementaryItem.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSCollectionLayoutBoundarySupplementaryItem.h; sourceTree = "<group>"; };
+		7182B14A983E86DD9F32AD129C461D12 /* IBPNSCollectionLayoutSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutSection.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSCollectionLayoutSection.h; sourceTree = "<group>"; };
+		75C349939F1F78A79FE432604158E1F5 /* IBPNSCollectionLayoutAnchor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPNSCollectionLayoutAnchor.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutAnchor.m; sourceTree = "<group>"; };
+		768FCFD3DAA2833EBD218AB67F667B30 /* Pods-BEEFormKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEEFormKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		772CFE4CFD005D22566771A09F26E43F /* IBPNSCollectionLayoutContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPNSCollectionLayoutContainer.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutContainer.m; sourceTree = "<group>"; };
+		7C99DE6BC5835725808807B4D54D136A /* Pods-BEEFormKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEEFormKit_Example-Info.plist"; sourceTree = "<group>"; };
+		7F8A052822566DBA0468E5B9AE8D77BC /* IBPNSCollectionLayoutSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutSize.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSCollectionLayoutSize.h; sourceTree = "<group>"; };
+		7FC042BAB59155D0B44739C9628360AB /* IBPNSDirectionalEdgeInsets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSDirectionalEdgeInsets.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSDirectionalEdgeInsets.h; sourceTree = "<group>"; };
+		81667EF5EB3513CC67EFCEDEA46DD787 /* ConfigurableElementKind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigurableElementKind.swift; path = BEEFormKit/Classes/Sources/ConfigurableElementKind.swift; sourceTree = "<group>"; };
+		84F0FE4036011D14911465BEFE82CCC0 /* IBPNSCollectionLayoutAnchor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutAnchor.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSCollectionLayoutAnchor.h; sourceTree = "<group>"; };
+		88B00A03222708E177D42A1B2E8D4099 /* Pods-BEEFormKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEEFormKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8A477A43D8908AEA64F0C432DA68283A /* IBPUICollectionViewCompositionalLayoutConfiguration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPUICollectionViewCompositionalLayoutConfiguration_Private.h; path = Sources/IBPCollectionViewCompositionalLayout/IBPUICollectionViewCompositionalLayoutConfiguration_Private.h; sourceTree = "<group>"; };
+		8AD077BA13B2825EB7ACD8443F67882D /* BEEFormKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEEFormKit.debug.xcconfig; sourceTree = "<group>"; };
+		8AF1FC33D3C7C6E3A354BB8962BE6A57 /* FormElementKindItemAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormElementKindItemAction.swift; path = BEEFormKit/Classes/Sources/FormElementKindItemAction.swift; sourceTree = "<group>"; };
+		8DCD62B5D6B6BC9CE11AFB0D9A4985EF /* Pods-BEEFormKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BEEFormKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92303ACDCF2E9650C6B6885CC53F72B3 /* IBPUICollectionLayoutSectionOrthogonalScrollingBehavior.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPUICollectionLayoutSectionOrthogonalScrollingBehavior.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPUICollectionLayoutSectionOrthogonalScrollingBehavior.h; sourceTree = "<group>"; };
+		92D59704AC70B4E39E33EC8A96497C6A /* IBPNSCollectionLayoutSpacing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPNSCollectionLayoutSpacing.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutSpacing.m; sourceTree = "<group>"; };
+		93ED003FAFDA8C05377C5653FC361BF7 /* Pods-BEEFormKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BEEFormKit_Example.modulemap"; sourceTree = "<group>"; };
+		95E90EBF11B509DE122AA1B3B3F300AE /* IBPNSCollectionLayoutBoundarySupplementaryItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPNSCollectionLayoutBoundarySupplementaryItem.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutBoundarySupplementaryItem.m; sourceTree = "<group>"; };
+		9657F34B1917C3EFB759F8BBE25215FF /* FormSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSection.swift; path = BEEFormKit/Classes/Sources/FormSection.swift; sourceTree = "<group>"; };
+		96C8ADC1496E60951C543CCA6406E85B /* IBPNSCollectionLayoutSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPNSCollectionLayoutSection.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutSection.m; sourceTree = "<group>"; };
+		9C8FF48487CA233357E3B2F0D27A6860 /* BEEFormKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEEFormKit.framework; path = BEEFormKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D77AE623A9B75BCAB64B9E0058E0D14 /* IBPCollectionViewCompositionalLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBPCollectionViewCompositionalLayout-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E923DFD075FED10F0B90F3CBD89518C /* IBPNSCollectionLayoutSize_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutSize_Private.h; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutSize_Private.h; sourceTree = "<group>"; };
+		A23BC415DA3C3DFA561255486E6E1BB1 /* IBPNSCollectionLayoutSupplementaryItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutSupplementaryItem.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSCollectionLayoutSupplementaryItem.h; sourceTree = "<group>"; };
+		A3EEDFC1AD65AC8375102AF62F24A638 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A46968058E6A8A5EFBEE9351402E1BA6 /* Pods-BEEFormKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEEFormKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A949F5E583D4BA8EEE051BB59D2C79A8 /* IBPNSCollectionLayoutGroup_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutGroup_Private.h; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutGroup_Private.h; sourceTree = "<group>"; };
+		AA06B19C87EBCF8159460693A5A48175 /* IBPCollectionViewOrthogonalScrollerSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPCollectionViewOrthogonalScrollerSectionController.h; path = Sources/IBPCollectionViewCompositionalLayout/IBPCollectionViewOrthogonalScrollerSectionController.h; sourceTree = "<group>"; };
+		AE698490F1ED05CD349A5DC1DA87DA1A /* FormItemAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormItemAction.swift; path = BEEFormKit/Classes/Sources/FormItemAction.swift; sourceTree = "<group>"; };
+		AF0D972FF9B658B27AF070F0EB11911B /* FormItemSizeCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormItemSizeCalculator.swift; path = BEEFormKit/Classes/Sources/FormItemSizeCalculator.swift; sourceTree = "<group>"; };
+		AFF961129283DD639CA027F50950D7F1 /* Pods-BEEFormKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BEEFormKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		B21C587CF0E729A544E78FA8953BFA03 /* IBPNSDirectionalEdgeInsets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPNSDirectionalEdgeInsets.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSDirectionalEdgeInsets.m; sourceTree = "<group>"; };
+		B29BF76BAA9EBF43B0CEEDBED974BF9E /* IBPNSCollectionLayoutItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPNSCollectionLayoutItem.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutItem.m; sourceTree = "<group>"; };
+		B3B58DC59A3C845A1AE8B940A9EA4C6C /* Pods-BEEFormKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEEFormKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B481C82E6ADAB1921D29E4080F03C18A /* Pods-BEEFormKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BEEFormKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B4D428CA816FDDC1E1EDCE15F32994CB /* IBPNSRectAlignment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSRectAlignment.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSRectAlignment.h; sourceTree = "<group>"; };
+		B82A17489D63D07DC8DB565225D1188A /* IBPCollectionViewCompositionalLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBPCollectionViewCompositionalLayout-umbrella.h"; sourceTree = "<group>"; };
+		B9FE709CA86D78C2EB2155E9C1D43250 /* Pods-BEEFormKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEEFormKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB4A7FC6281CA6B897F633016B055A7E /* Pods_BEEFormKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BEEFormKit_Tests.framework; path = "Pods-BEEFormKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEFC7CFF97D4400E1CC410A7B1C818D /* Pods-BEEFormKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BEEFormKit_Example-dummy.m"; sourceTree = "<group>"; };
+		BE6C85173DC7195F525DFB3E01497DFD /* IBPNSCollectionLayoutContainer_Protocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutContainer_Protocol.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSCollectionLayoutContainer_Protocol.h; sourceTree = "<group>"; };
+		BFB47A2AAC01EEC9F76EDD4AAC4C63BE /* Pods-BEEFormKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BEEFormKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2546139A33F03A760C1869E6B6C75A9 /* IBPNSCollectionLayoutDimension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutDimension.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSCollectionLayoutDimension.h; sourceTree = "<group>"; };
+		C41DE1FF89D08858E2B7CA2373C7B84E /* FormKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormKit.swift; path = BEEFormKit/Classes/Sources/FormKit.swift; sourceTree = "<group>"; };
+		C6321937F0569F1F8AD4F803AA0E2342 /* IBPNSCollectionLayoutGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPNSCollectionLayoutGroup.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutGroup.m; sourceTree = "<group>"; };
+		C6EC521A59C5B22E707745DDA40BA054 /* IBPNSCollectionLayoutSpacing_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutSpacing_Private.h; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutSpacing_Private.h; sourceTree = "<group>"; };
+		CA2964E4B6539FC9485FC2B324A9EBEA /* IBPNSCollectionLayoutSupplementaryItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPNSCollectionLayoutSupplementaryItem.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutSupplementaryItem.m; sourceTree = "<group>"; };
+		CFA5C45002A97028E4A98EB979EC60E7 /* IBPNSCollectionLayoutSupplementaryItem_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutSupplementaryItem_Private.h; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutSupplementaryItem_Private.h; sourceTree = "<group>"; };
+		CFA6C7EA0F5DFDD1C73366E0B9B28A62 /* IBPCollectionViewCompositionalLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IBPCollectionViewCompositionalLayout-dummy.m"; sourceTree = "<group>"; };
+		D2711AD7D295DE54D64DB8F131795E7D /* BEEFormKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEEFormKit-umbrella.h"; sourceTree = "<group>"; };
+		D4C8E99363A3B61C4F992CF76482ED70 /* IBPCollectionViewOrthogonalScrollerSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPCollectionViewOrthogonalScrollerSectionController.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPCollectionViewOrthogonalScrollerSectionController.m; sourceTree = "<group>"; };
+		D5F09893487A54132810A08343220FFB /* BEEFormKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEEFormKit-dummy.m"; sourceTree = "<group>"; };
+		D639525F9F5AB0375372E03BCAF7BC5C /* IBPCollectionCompositionalLayoutSolverResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPCollectionCompositionalLayoutSolverResult.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPCollectionCompositionalLayoutSolverResult.m; sourceTree = "<group>"; };
+		D6C37B736BE4710A73D0C8C9E3F5B076 /* IBPUICollectionViewCompositionalLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPUICollectionViewCompositionalLayout.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPUICollectionViewCompositionalLayout.h; sourceTree = "<group>"; };
+		D8D44F442540E2EBA7CAF5670494F412 /* IBPNSCollectionLayoutEdgeSpacing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutEdgeSpacing.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSCollectionLayoutEdgeSpacing.h; sourceTree = "<group>"; };
+		D9F89A00907A315AEC038B8DF663B3DE /* IBPNSCollectionLayoutForwardCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutForwardCompatibility.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSCollectionLayoutForwardCompatibility.h; sourceTree = "<group>"; };
+		DE4B4F945DEFAC5C81771C789F2D21A0 /* IBPNSCollectionLayoutSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPNSCollectionLayoutSize.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutSize.m; sourceTree = "<group>"; };
+		E48F0D65F89CC343D4071F3F1B72CE6B /* IBPCollectionViewCompositionalLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IBPCollectionViewCompositionalLayout.framework; path = IBPCollectionViewCompositionalLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BD5844FF7BB49A438C02B8C703B521 /* BEEFormKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEEFormKit-prefix.pch"; sourceTree = "<group>"; };
+		EB3E8DB0254805F9835086C2203FA9F8 /* ConfigurableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigurableCell.swift; path = BEEFormKit/Classes/Sources/ConfigurableCell.swift; sourceTree = "<group>"; };
+		EC9182A2E2CA47F4C75BF5AEA60DA7F7 /* IBPCollectionViewCompositionalLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBPCollectionViewCompositionalLayout.debug.xcconfig; sourceTree = "<group>"; };
+		ED372081164E4ED621B567256138A688 /* FormCellAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormCellAction.swift; path = BEEFormKit/Classes/Sources/FormCellAction.swift; sourceTree = "<group>"; };
+		F14EB4FAAAA08D15990F7A7421C00AF2 /* IBPNSDirectionalRectEdge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSDirectionalRectEdge.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSDirectionalRectEdge.h; sourceTree = "<group>"; };
+		F20D07A66DE7887F294D7F893C61E804 /* UICollectionView+ARDynamicCacheHeightLayoutCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+ARDynamicCacheHeightLayoutCell.m"; path = "BEEFormKit/Classes/Extension/UICollectionView+ARDynamicCacheHeightLayoutCell.m"; sourceTree = "<group>"; };
+		F6117F536DBDE96D567002703FAE91EF /* IBPNSCollectionLayoutVisibleItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutVisibleItem.h; path = Sources/IBPCollectionViewCompositionalLayout/include/IBPNSCollectionLayoutVisibleItem.h; sourceTree = "<group>"; };
+		F66285B11291EB03EA3C2018DAC973A8 /* IBPCollectionViewCompositionalLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBPCollectionViewCompositionalLayout.release.xcconfig; sourceTree = "<group>"; };
+		F69DCA4AF0C1198A459DBA118C87D3BF /* FormItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormItem.swift; path = BEEFormKit/Classes/Sources/FormItem.swift; sourceTree = "<group>"; };
+		F8BD7A2117DD7D13ECB4E0B81DD30DC3 /* IBPNSCollectionLayoutContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IBPNSCollectionLayoutContainer.h; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutContainer.h; sourceTree = "<group>"; };
+		F90F8BB960228F7D7D36D778EAD01AFC /* IBPUICollectionViewCompositionalLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPUICollectionViewCompositionalLayout.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPUICollectionViewCompositionalLayout.m; sourceTree = "<group>"; };
+		F9CBDD94371F1E26CA7DDC3DAE65515D /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.m; sourceTree = "<group>"; };
+		FC123F9F5155A0A0FF48F170E4897FE1 /* IBPNSCollectionLayoutDimension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IBPNSCollectionLayoutDimension.m; path = Sources/IBPCollectionViewCompositionalLayout/IBPNSCollectionLayoutDimension.m; sourceTree = "<group>"; };
+		FE3C11DAC9635C7175501FA315C810F2 /* UICollectionView+ARDynamicCacheHeightLayoutCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+ARDynamicCacheHeightLayoutCell.h"; path = "BEEFormKit/Classes/Extension/UICollectionView+ARDynamicCacheHeightLayoutCell.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E6387D630FCACF6A5706A7158A79CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF38AEA9A3E1DAF8CA40ED3A75FB4EAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976E5206B2BFF59776B8D83072890919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1942958B5DAC1EABA0B3A3396FA54337 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4634417465FD32146038E148D9ABAB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE11EE9421D9832301D16F01BC043081 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47ADA0B7B218E0495ABAAB766E26F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DADB3AEF234B7C4EBDC96CD5FF9A81 /* Foundation.framework in Frameworks */,
+				132CA04E7E2CFABF482DCEACE84F47A5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED904CD4130E449C38BEA874598A31C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C8FF48487CA233357E3B2F0D27A6860 /* BEEFormKit.framework */,
+				E48F0D65F89CC343D4071F3F1B72CE6B /* IBPCollectionViewCompositionalLayout.framework */,
+				586CE53AABA2030551C2BD1F8E8B7D7B /* Pods_BEEFormKit_Example.framework */,
+				BB4A7FC6281CA6B897F633016B055A7E /* Pods_BEEFormKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1072653CD43A6CDF91D7727D35B56589 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EB3E8DB0254805F9835086C2203FA9F8 /* ConfigurableCell.swift */,
+				81667EF5EB3513CC67EFCEDEA46DD787 /* ConfigurableElementKind.swift */,
+				ED372081164E4ED621B567256138A688 /* FormCellAction.swift */,
+				048346EEA84770C5CBEC89D4642F24E6 /* FormDirector.swift */,
+				40E900A94F8E3E379B1F0FCC2B6F1980 /* FormElementKindItem.swift */,
+				8AF1FC33D3C7C6E3A354BB8962BE6A57 /* FormElementKindItemAction.swift */,
+				58CC66F7C8953DE68BD97164B966249F /* FormElementKindViewAction.swift */,
+				F69DCA4AF0C1198A459DBA118C87D3BF /* FormItem.swift */,
+				AE698490F1ED05CD349A5DC1DA87DA1A /* FormItemAction.swift */,
+				1568B605F88B5997190133B32EA9BCB5 /* FormItemLayout.swift */,
+				AF0D972FF9B658B27AF070F0EB11911B /* FormItemSizeCalculator.swift */,
+				C41DE1FF89D08858E2B7CA2373C7B84E /* FormKit.swift */,
+				17D14E103CEB0E7BB2A7D744ECDFCE8D /* FormRegisterer.swift */,
+				9657F34B1917C3EFB759F8BBE25215FF /* FormSection.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3763721F7B3C74DF6DFC60CA463B9A81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07BE3031DD14DFCF4D6B56FC9CFB8D2B /* BEEFormKit.modulemap */,
+				D5F09893487A54132810A08343220FFB /* BEEFormKit-dummy.m */,
+				0DDF6C70EC393AEE44A4373D49EA9660 /* BEEFormKit-Info.plist */,
+				E6BD5844FF7BB49A438C02B8C703B521 /* BEEFormKit-prefix.pch */,
+				D2711AD7D295DE54D64DB8F131795E7D /* BEEFormKit-umbrella.h */,
+				8AD077BA13B2825EB7ACD8443F67882D /* BEEFormKit.debug.xcconfig */,
+				0144D32F5765FC32CDCAF03640F28D14 /* BEEFormKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BEEFormKit";
+			sourceTree = "<group>";
+		};
+		40EFB89CDAD831A4A280DA817E48CB2D /* Pods-BEEFormKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				93ED003FAFDA8C05377C5653FC361BF7 /* Pods-BEEFormKit_Example.modulemap */,
+				8DCD62B5D6B6BC9CE11AFB0D9A4985EF /* Pods-BEEFormKit_Example-acknowledgements.markdown */,
+				165F9D5B9338FDB22097648E49C77721 /* Pods-BEEFormKit_Example-acknowledgements.plist */,
+				BDEFC7CFF97D4400E1CC410A7B1C818D /* Pods-BEEFormKit_Example-dummy.m */,
+				114E3A38D681AD21A906545A721705C4 /* Pods-BEEFormKit_Example-frameworks.sh */,
+				7C99DE6BC5835725808807B4D54D136A /* Pods-BEEFormKit_Example-Info.plist */,
+				30EB22BD9083BF30B67FC683A0002780 /* Pods-BEEFormKit_Example-umbrella.h */,
+				B3B58DC59A3C845A1AE8B940A9EA4C6C /* Pods-BEEFormKit_Example.debug.xcconfig */,
+				88B00A03222708E177D42A1B2E8D4099 /* Pods-BEEFormKit_Example.release.xcconfig */,
+			);
+			name = "Pods-BEEFormKit_Example";
+			path = "Target Support Files/Pods-BEEFormKit_Example";
+			sourceTree = "<group>";
+		};
+		6537E16E6E7CFE25FFF3BDC4D4C76CBD /* BEEFormKit */ = {
+			isa = PBXGroup;
+			children = (
+				1072653CD43A6CDF91D7727D35B56589 /* Core */,
+				D3D267DE852EE63CFC68655DE7B95432 /* Extension */,
+				6E3DD1D4410E906BB7C6A94F0C9AFBB1 /* Pod */,
+				3763721F7B3C74DF6DFC60CA463B9A81 /* Support Files */,
+			);
+			name = BEEFormKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6E3DD1D4410E906BB7C6A94F0C9AFBB1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				373690C59060B254FCBE0723F06180E8 /* BEEFormKit.podspec */,
+				5A8BB824131AC4D31E2F86E7C5CB168B /* LICENSE */,
+				A3EEDFC1AD65AC8375102AF62F24A638 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		70A96CCAF01A39A8D85A62BCEFAE89AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				559BCD564BFC5F6D7A8A100B2702E9F4 /* IBPCollectionViewCompositionalLayout.modulemap */,
+				CFA6C7EA0F5DFDD1C73366E0B9B28A62 /* IBPCollectionViewCompositionalLayout-dummy.m */,
+				4BA72AD8F9945375EAC5A54DDC2EE457 /* IBPCollectionViewCompositionalLayout-Info.plist */,
+				9D77AE623A9B75BCAB64B9E0058E0D14 /* IBPCollectionViewCompositionalLayout-prefix.pch */,
+				B82A17489D63D07DC8DB565225D1188A /* IBPCollectionViewCompositionalLayout-umbrella.h */,
+				EC9182A2E2CA47F4C75BF5AEA60DA7F7 /* IBPCollectionViewCompositionalLayout.debug.xcconfig */,
+				F66285B11291EB03EA3C2018DAC973A8 /* IBPCollectionViewCompositionalLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IBPCollectionViewCompositionalLayout";
+			sourceTree = "<group>";
+		};
+		91BEAB987EFE4588B9A45A14E25F746D /* Pods-BEEFormKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1C7554B362DC51D83B83D5B209360D5E /* Pods-BEEFormKit_Tests.modulemap */,
+				BFB47A2AAC01EEC9F76EDD4AAC4C63BE /* Pods-BEEFormKit_Tests-acknowledgements.markdown */,
+				768FCFD3DAA2833EBD218AB67F667B30 /* Pods-BEEFormKit_Tests-acknowledgements.plist */,
+				AFF961129283DD639CA027F50950D7F1 /* Pods-BEEFormKit_Tests-dummy.m */,
+				6A9BDF7E6745CD5BB3EC13BBD1C031D5 /* Pods-BEEFormKit_Tests-Info.plist */,
+				B481C82E6ADAB1921D29E4080F03C18A /* Pods-BEEFormKit_Tests-umbrella.h */,
+				B9FE709CA86D78C2EB2155E9C1D43250 /* Pods-BEEFormKit_Tests.debug.xcconfig */,
+				A46968058E6A8A5EFBEE9351402E1BA6 /* Pods-BEEFormKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-BEEFormKit_Tests";
+			path = "Target Support Files/Pods-BEEFormKit_Tests";
+			sourceTree = "<group>";
+		};
+		97F980158A509A981105E8EE8A455E11 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6537E16E6E7CFE25FFF3BDC4D4C76CBD /* BEEFormKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ABD88892529758337CBC0D090F18B6C0 /* IBPCollectionViewCompositionalLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0A3CD94C265BCEB0BAA34B515971C4F1 /* IBPCollectionCompositionalLayoutSolver.h */,
+				2C9B3DFA3BB82947B921E0986708B4B3 /* IBPCollectionCompositionalLayoutSolver.m */,
+				3BB227E0C310FB0669B15B51E57F8668 /* IBPCollectionCompositionalLayoutSolverResult.h */,
+				D639525F9F5AB0375372E03BCAF7BC5C /* IBPCollectionCompositionalLayoutSolverResult.m */,
+				08859F60E2237917ADF031B7306E1E2F /* IBPCollectionViewCompositionalLayout.h */,
+				67FD29C7D47AF0C0BB6842143D3950E4 /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.h */,
+				F9CBDD94371F1E26CA7DDC3DAE65515D /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.m */,
+				AA06B19C87EBCF8159460693A5A48175 /* IBPCollectionViewOrthogonalScrollerSectionController.h */,
+				D4C8E99363A3B61C4F992CF76482ED70 /* IBPCollectionViewOrthogonalScrollerSectionController.m */,
+				84F0FE4036011D14911465BEFE82CCC0 /* IBPNSCollectionLayoutAnchor.h */,
+				75C349939F1F78A79FE432604158E1F5 /* IBPNSCollectionLayoutAnchor.m */,
+				36EBA9A4D883157409A67F594C43AA76 /* IBPNSCollectionLayoutAnchor_Private.h */,
+				70B0C778446E6ED42B0E4692A791D330 /* IBPNSCollectionLayoutBoundarySupplementaryItem.h */,
+				95E90EBF11B509DE122AA1B3B3F300AE /* IBPNSCollectionLayoutBoundarySupplementaryItem.m */,
+				F8BD7A2117DD7D13ECB4E0B81DD30DC3 /* IBPNSCollectionLayoutContainer.h */,
+				772CFE4CFD005D22566771A09F26E43F /* IBPNSCollectionLayoutContainer.m */,
+				BE6C85173DC7195F525DFB3E01497DFD /* IBPNSCollectionLayoutContainer_Protocol.h */,
+				18F70F08505FB676F4D8FF86BCB94EB6 /* IBPNSCollectionLayoutDecorationItem.h */,
+				1D5B8C4A59DE309A2E62A69CC3BEA13D /* IBPNSCollectionLayoutDecorationItem.m */,
+				C2546139A33F03A760C1869E6B6C75A9 /* IBPNSCollectionLayoutDimension.h */,
+				FC123F9F5155A0A0FF48F170E4897FE1 /* IBPNSCollectionLayoutDimension.m */,
+				D8D44F442540E2EBA7CAF5670494F412 /* IBPNSCollectionLayoutEdgeSpacing.h */,
+				0E561C30B139582571133E5FE1509B90 /* IBPNSCollectionLayoutEdgeSpacing.m */,
+				3A8D5A4F95A8478AAE4C9AEC59C02651 /* IBPNSCollectionLayoutEdgeSpacing_Private.h */,
+				2DB6AE1B62470101365A2BBE6E79BDB5 /* IBPNSCollectionLayoutEnvironment.h */,
+				4D1B458751A40414E01C70DE585E046D /* IBPNSCollectionLayoutEnvironment.m */,
+				5CEC148311F76D94496528DE763A8B7A /* IBPNSCollectionLayoutEnvironment_Protocol.h */,
+				D9F89A00907A315AEC038B8DF663B3DE /* IBPNSCollectionLayoutForwardCompatibility.h */,
+				21D53D3A5BE976741764D7BA9450A212 /* IBPNSCollectionLayoutGroup.h */,
+				C6321937F0569F1F8AD4F803AA0E2342 /* IBPNSCollectionLayoutGroup.m */,
+				A949F5E583D4BA8EEE051BB59D2C79A8 /* IBPNSCollectionLayoutGroup_Private.h */,
+				07B2B56141E372808DC6833CBC2550E0 /* IBPNSCollectionLayoutGroupCustomItem.h */,
+				6ACAEA9A922B1E221EE15B33E22334B8 /* IBPNSCollectionLayoutGroupCustomItem.m */,
+				6CF4BFD70E73933CC94D07BD7D3DA695 /* IBPNSCollectionLayoutItem.h */,
+				B29BF76BAA9EBF43B0CEEDBED974BF9E /* IBPNSCollectionLayoutItem.m */,
+				1A2B7ABD22CC82B8E7740201E803875D /* IBPNSCollectionLayoutItem_Private.h */,
+				7182B14A983E86DD9F32AD129C461D12 /* IBPNSCollectionLayoutSection.h */,
+				96C8ADC1496E60951C543CCA6406E85B /* IBPNSCollectionLayoutSection.m */,
+				3395552A361043A523D23CB6219F1FA0 /* IBPNSCollectionLayoutSection_Private.h */,
+				7F8A052822566DBA0468E5B9AE8D77BC /* IBPNSCollectionLayoutSize.h */,
+				DE4B4F945DEFAC5C81771C789F2D21A0 /* IBPNSCollectionLayoutSize.m */,
+				9E923DFD075FED10F0B90F3CBD89518C /* IBPNSCollectionLayoutSize_Private.h */,
+				6C6B5670EC0D096D488E4A4CC25EE9D5 /* IBPNSCollectionLayoutSpacing.h */,
+				92D59704AC70B4E39E33EC8A96497C6A /* IBPNSCollectionLayoutSpacing.m */,
+				C6EC521A59C5B22E707745DDA40BA054 /* IBPNSCollectionLayoutSpacing_Private.h */,
+				A23BC415DA3C3DFA561255486E6E1BB1 /* IBPNSCollectionLayoutSupplementaryItem.h */,
+				CA2964E4B6539FC9485FC2B324A9EBEA /* IBPNSCollectionLayoutSupplementaryItem.m */,
+				CFA5C45002A97028E4A98EB979EC60E7 /* IBPNSCollectionLayoutSupplementaryItem_Private.h */,
+				F6117F536DBDE96D567002703FAE91EF /* IBPNSCollectionLayoutVisibleItem.h */,
+				7FC042BAB59155D0B44739C9628360AB /* IBPNSDirectionalEdgeInsets.h */,
+				B21C587CF0E729A544E78FA8953BFA03 /* IBPNSDirectionalEdgeInsets.m */,
+				F14EB4FAAAA08D15990F7A7421C00AF2 /* IBPNSDirectionalRectEdge.h */,
+				B4D428CA816FDDC1E1EDCE15F32994CB /* IBPNSRectAlignment.h */,
+				92303ACDCF2E9650C6B6885CC53F72B3 /* IBPUICollectionLayoutSectionOrthogonalScrollingBehavior.h */,
+				D6C37B736BE4710A73D0C8C9E3F5B076 /* IBPUICollectionViewCompositionalLayout.h */,
+				F90F8BB960228F7D7D36D778EAD01AFC /* IBPUICollectionViewCompositionalLayout.m */,
+				07684DDFAF55229E749F6DE44C4949B6 /* IBPUICollectionViewCompositionalLayoutConfiguration.h */,
+				4C2E37A63364D8416FAE8839FC12B9E1 /* IBPUICollectionViewCompositionalLayoutConfiguration.m */,
+				8A477A43D8908AEA64F0C432DA68283A /* IBPUICollectionViewCompositionalLayoutConfiguration_Private.h */,
+				70A96CCAF01A39A8D85A62BCEFAE89AA /* Support Files */,
+			);
+			name = IBPCollectionViewCompositionalLayout;
+			path = IBPCollectionViewCompositionalLayout;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				97F980158A509A981105E8EE8A455E11 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				F169A2C23DD2790B7A3872B406FAA6B0 /* Pods */,
+				0ED904CD4130E449C38BEA874598A31C /* Products */,
+				FF6A89CAFCAA08FA4299D527C6DD1078 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D3D267DE852EE63CFC68655DE7B95432 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FE3C11DAC9635C7175501FA315C810F2 /* UICollectionView+ARDynamicCacheHeightLayoutCell.h */,
+				F20D07A66DE7887F294D7F893C61E804 /* UICollectionView+ARDynamicCacheHeightLayoutCell.m */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F169A2C23DD2790B7A3872B406FAA6B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABD88892529758337CBC0D090F18B6C0 /* IBPCollectionViewCompositionalLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF6A89CAFCAA08FA4299D527C6DD1078 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40EFB89CDAD831A4A280DA817E48CB2D /* Pods-BEEFormKit_Example */,
+				91BEAB987EFE4588B9A45A14E25F746D /* Pods-BEEFormKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		097437779D29E2F959CC129AC097D40C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6136167E9D1A2AD7A05FDFEC9D8932 /* Pods-BEEFormKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AEE8015F028CA213EB52858E7F3F617 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711CE71B2EFA01096B3D438D175F80D5 /* IBPCollectionCompositionalLayoutSolver.h in Headers */,
+				018F1D821C9CB5FAC6B1AFCFFBD8D72C /* IBPCollectionCompositionalLayoutSolverResult.h in Headers */,
+				ED5183EE6CA09091A3F1D26CBCF4A0BB /* IBPCollectionViewCompositionalLayout-umbrella.h in Headers */,
+				EDA0EACB1B0C41077572A87A96CA0310 /* IBPCollectionViewCompositionalLayout.h in Headers */,
+				5A2F983C424C84C1FAAF7C0CA56EA3C4 /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.h in Headers */,
+				BC871DD4B2EACD84E0C9E8536E3B7EE7 /* IBPCollectionViewOrthogonalScrollerSectionController.h in Headers */,
+				140DD439C804AC6B195FD50D142C37ED /* IBPNSCollectionLayoutAnchor.h in Headers */,
+				EC6FDCB8F8D41D5CAFF85055D1788AE1 /* IBPNSCollectionLayoutAnchor_Private.h in Headers */,
+				F4136FB43721A84276FA4B56F1FDB355 /* IBPNSCollectionLayoutBoundarySupplementaryItem.h in Headers */,
+				D383F7F64A0739DEAF8F37FE8D9B7A4A /* IBPNSCollectionLayoutContainer.h in Headers */,
+				C4593ACE47E1EB5667CAFFB334F7F052 /* IBPNSCollectionLayoutContainer_Protocol.h in Headers */,
+				C2A6D936BB39B5FD62D5108014060F44 /* IBPNSCollectionLayoutDecorationItem.h in Headers */,
+				A4E13E540A29456A0090D6C71E6A9882 /* IBPNSCollectionLayoutDimension.h in Headers */,
+				0CE5D9FAC0732B0A57C2FEE645BB9945 /* IBPNSCollectionLayoutEdgeSpacing.h in Headers */,
+				729CFC1F49C329B1E77CF007B3A14BA4 /* IBPNSCollectionLayoutEdgeSpacing_Private.h in Headers */,
+				08386EC15D6CC3DFCE56D82A558F4FE8 /* IBPNSCollectionLayoutEnvironment.h in Headers */,
+				F74E1868883EB27ADF6A8EBD1304898C /* IBPNSCollectionLayoutEnvironment_Protocol.h in Headers */,
+				DC306158D653E81524AA8000680C6033 /* IBPNSCollectionLayoutForwardCompatibility.h in Headers */,
+				D09C3BD6D6A7AC3A8D04E9DF9A8582F1 /* IBPNSCollectionLayoutGroup.h in Headers */,
+				303A906125CF20098502E1BDBFD640A0 /* IBPNSCollectionLayoutGroup_Private.h in Headers */,
+				5B8BA72F68F93F592200ED09312CF0FA /* IBPNSCollectionLayoutGroupCustomItem.h in Headers */,
+				B65351A9BFC1FC60EB1FA14408A85FD2 /* IBPNSCollectionLayoutItem.h in Headers */,
+				8C83E8486C3A3825C0DC6F531BD15B52 /* IBPNSCollectionLayoutItem_Private.h in Headers */,
+				E8A5946E3F8FE11B888EDB225C82DBD4 /* IBPNSCollectionLayoutSection.h in Headers */,
+				638DCEACEB633194F4EB470299FD5202 /* IBPNSCollectionLayoutSection_Private.h in Headers */,
+				0C41B4904B29B76F893E4CC7CC3D7312 /* IBPNSCollectionLayoutSize.h in Headers */,
+				439DE7816CAF8D205C2680223555C4C9 /* IBPNSCollectionLayoutSize_Private.h in Headers */,
+				9F9854118B11E5A4B199F63DA54A8118 /* IBPNSCollectionLayoutSpacing.h in Headers */,
+				DE867215161BDAE9B420ADF97A4E73D2 /* IBPNSCollectionLayoutSpacing_Private.h in Headers */,
+				7C55C80316ED8B805F27C627AB0857B9 /* IBPNSCollectionLayoutSupplementaryItem.h in Headers */,
+				8CE3AB8837C5BBF84BC8C4FE7B6CF98A /* IBPNSCollectionLayoutSupplementaryItem_Private.h in Headers */,
+				EBB67B4256CAB321AF5EFC5B0E9B60B9 /* IBPNSCollectionLayoutVisibleItem.h in Headers */,
+				FABB2B357A27500142D6F8906E442FE8 /* IBPNSDirectionalEdgeInsets.h in Headers */,
+				8B1B8364163E35E5B113CDE0F037FA45 /* IBPNSDirectionalRectEdge.h in Headers */,
+				3972AD6D566F38F28B1282FDE0965E00 /* IBPNSRectAlignment.h in Headers */,
+				C688E5CD25C13850C5027D033AEBDD18 /* IBPUICollectionLayoutSectionOrthogonalScrollingBehavior.h in Headers */,
+				3C30D5BF7650DA29922C2780B854DAEF /* IBPUICollectionViewCompositionalLayout.h in Headers */,
+				6511BCF82FAEAEAA5650C45AFFCFBBED /* IBPUICollectionViewCompositionalLayoutConfiguration.h in Headers */,
+				A58A7446FB9E5128A7048CC48611E582 /* IBPUICollectionViewCompositionalLayoutConfiguration_Private.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C402E4DD84D5EA72AB49A5F3C93D42C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B88321D17781C0CDB98F977A3FC5AA /* BEEFormKit-umbrella.h in Headers */,
+				6AFA3B3EAD06B3F412774392660B4734 /* UICollectionView+ARDynamicCacheHeightLayoutCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14BA12D9F669C36790FB938A32F9DE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885EF9A2D4F6DC001F44B768094E1457 /* Pods-BEEFormKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A90B97FC8613ADCC8123FB382237C60 /* Pods-BEEFormKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9751B457599EF49A0F5E7A5CD8E6B1AC /* Build configuration list for PBXNativeTarget "Pods-BEEFormKit_Example" */;
+			buildPhases = (
+				097437779D29E2F959CC129AC097D40C /* Headers */,
+				6F26935A3EB31E4C516872AF49526B50 /* Sources */,
+				1E6387D630FCACF6A5706A7158A79CB3 /* Frameworks */,
+				7E97C6D46CE2B7740D62A37991CB02A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				573943D551EDBF7B773E8D8937213F1C /* PBXTargetDependency */,
+				1846D8395FF5AD189937F622BFCE9506 /* PBXTargetDependency */,
+			);
+			name = "Pods-BEEFormKit_Example";
+			productName = "Pods-BEEFormKit_Example";
+			productReference = 586CE53AABA2030551C2BD1F8E8B7D7B /* Pods_BEEFormKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6EC4BBB2EFCC2EE6233D5BC5414E4952 /* Pods-BEEFormKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FDD731529C30DF4016941B692FCA9BB /* Build configuration list for PBXNativeTarget "Pods-BEEFormKit_Tests" */;
+			buildPhases = (
+				D14BA12D9F669C36790FB938A32F9DE8 /* Headers */,
+				4CC5C08F2A6FC652D218A71EF911B90F /* Sources */,
+				976E5206B2BFF59776B8D83072890919 /* Frameworks */,
+				8B4FB8B6003FE740C2C759201DAD613D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8348FC0B05688EF40654117FA9D0078B /* PBXTargetDependency */,
+			);
+			name = "Pods-BEEFormKit_Tests";
+			productName = "Pods-BEEFormKit_Tests";
+			productReference = BB4A7FC6281CA6B897F633016B055A7E /* Pods_BEEFormKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6D33972ECD5C3EBB2CA1DDF16BCE422 /* IBPCollectionViewCompositionalLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F8A5CC0A3320737CD7E3A927649F7D /* Build configuration list for PBXNativeTarget "IBPCollectionViewCompositionalLayout" */;
+			buildPhases = (
+				5AEE8015F028CA213EB52858E7F3F617 /* Headers */,
+				0EBF2CB838EC1E4D105B164EC426C70D /* Sources */,
+				C47ADA0B7B218E0495ABAAB766E26F45 /* Frameworks */,
+				9EAD8809E0BB1A8962B84AADC3522A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBPCollectionViewCompositionalLayout;
+			productName = IBPCollectionViewCompositionalLayout;
+			productReference = E48F0D65F89CC343D4071F3F1B72CE6B /* IBPCollectionViewCompositionalLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D870B60112982FC1799F01E336F810F6 /* BEEFormKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0161E81174B2A87EF260A55666B0502 /* Build configuration list for PBXNativeTarget "BEEFormKit" */;
+			buildPhases = (
+				9C402E4DD84D5EA72AB49A5F3C93D42C /* Headers */,
+				CD89CBED2CD92F0426018A63B97EB9AB /* Sources */,
+				B4634417465FD32146038E148D9ABAB8 /* Frameworks */,
+				DC2443F375BC3DFC9B371C8CF1E6735A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEEFormKit;
+			productName = BEEFormKit;
+			productReference = 9C8FF48487CA233357E3B2F0D27A6860 /* BEEFormKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0ED904CD4130E449C38BEA874598A31C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D870B60112982FC1799F01E336F810F6 /* BEEFormKit */,
+				C6D33972ECD5C3EBB2CA1DDF16BCE422 /* IBPCollectionViewCompositionalLayout */,
+				6A90B97FC8613ADCC8123FB382237C60 /* Pods-BEEFormKit_Example */,
+				6EC4BBB2EFCC2EE6233D5BC5414E4952 /* Pods-BEEFormKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E97C6D46CE2B7740D62A37991CB02A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4FB8B6003FE740C2C759201DAD613D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAD8809E0BB1A8962B84AADC3522A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2443F375BC3DFC9B371C8CF1E6735A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EBF2CB838EC1E4D105B164EC426C70D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E9781C23DB960335D370C26FF17E68 /* IBPCollectionCompositionalLayoutSolver.m in Sources */,
+				B8350317965A1354C6F36889C187A79D /* IBPCollectionCompositionalLayoutSolverResult.m in Sources */,
+				C29462F471DFBAFE5AE22D6E99BE438D /* IBPCollectionViewCompositionalLayout-dummy.m in Sources */,
+				73A1380FB098BACB92F70E2D42E89D9A /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.m in Sources */,
+				6B8AB752EA43EBCE93F3BF2DAAE943FD /* IBPCollectionViewOrthogonalScrollerSectionController.m in Sources */,
+				895902F4086684AE77DC181A17B12CB2 /* IBPNSCollectionLayoutAnchor.m in Sources */,
+				FEF3DC5B3C7E36851AA810F1D6A32244 /* IBPNSCollectionLayoutBoundarySupplementaryItem.m in Sources */,
+				F23455D52768E441962BD0DFAA3A6530 /* IBPNSCollectionLayoutContainer.m in Sources */,
+				0DBAC6E685147F17BC459DD87BE820D2 /* IBPNSCollectionLayoutDecorationItem.m in Sources */,
+				633594B2F1A640D62E6F72B6488AC755 /* IBPNSCollectionLayoutDimension.m in Sources */,
+				8833675A1D62ADC2FC886B2E6C6218AC /* IBPNSCollectionLayoutEdgeSpacing.m in Sources */,
+				B1758E1F02627F989064C5703760EC36 /* IBPNSCollectionLayoutEnvironment.m in Sources */,
+				4FD56A339CCC5930A5C84FBC5475031A /* IBPNSCollectionLayoutGroup.m in Sources */,
+				037904199279FF2E6A2B1F2C81EC283E /* IBPNSCollectionLayoutGroupCustomItem.m in Sources */,
+				E47A8EB8A4A8F1E58A04ECBE31316A3E /* IBPNSCollectionLayoutItem.m in Sources */,
+				1BBCF154B2A4C5918428B00FC6EBCED3 /* IBPNSCollectionLayoutSection.m in Sources */,
+				ED3D97306B3C81D4ECCC3134B966342C /* IBPNSCollectionLayoutSize.m in Sources */,
+				4F618B0E5967F47755AA37615E4F4F68 /* IBPNSCollectionLayoutSpacing.m in Sources */,
+				C23E438A1EEE8108F6AA79C78D3E3492 /* IBPNSCollectionLayoutSupplementaryItem.m in Sources */,
+				8AB5779D577DD731DBDA7F8AF4EC08C6 /* IBPNSDirectionalEdgeInsets.m in Sources */,
+				80B79C46DED0F67742D8D9EF9009722C /* IBPUICollectionViewCompositionalLayout.m in Sources */,
+				C05ADD03F4095002C3C9A381AF2C5C21 /* IBPUICollectionViewCompositionalLayoutConfiguration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC5C08F2A6FC652D218A71EF911B90F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7FEBC876C4A0F69E85DE95A296A4F6 /* Pods-BEEFormKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F26935A3EB31E4C516872AF49526B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9345BD5EB68CDFA775763B231E039B8D /* Pods-BEEFormKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD89CBED2CD92F0426018A63B97EB9AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93550F5E7AE2714B6E8491EC15D146AB /* BEEFormKit-dummy.m in Sources */,
+				22DF6CFC2445514ECB51654A8B2255CF /* ConfigurableCell.swift in Sources */,
+				AA43315BCDEB548D5E533537A900D645 /* ConfigurableElementKind.swift in Sources */,
+				7BDBACFFCE314482A4DBA1D498273749 /* FormCellAction.swift in Sources */,
+				331FA2ED4DF2C36C03152BBA825DB7F4 /* FormDirector.swift in Sources */,
+				4D43DFE6A80BE37504374A751485EE4F /* FormElementKindItem.swift in Sources */,
+				53973606E89542BB9782CC821496D7EE /* FormElementKindItemAction.swift in Sources */,
+				A9BF06778222526E06A1392610A5BDCD /* FormElementKindViewAction.swift in Sources */,
+				33D5A421D3A0DE02EA6AECE9B2C6C125 /* FormItem.swift in Sources */,
+				5DA0016BCD6305164249D64F678284BE /* FormItemAction.swift in Sources */,
+				A453B862FC2B7CCBBB656BF6CEE01C71 /* FormItemLayout.swift in Sources */,
+				8F595164C659C078A7139600CD89361D /* FormItemSizeCalculator.swift in Sources */,
+				9EE09994BE02145D71C0659B786C05C6 /* FormKit.swift in Sources */,
+				AA475CEFC3FBA6B6319A8DC86D0B6155 /* FormRegisterer.swift in Sources */,
+				52208EB14C2589E36ED4888A79DA1A10 /* FormSection.swift in Sources */,
+				03E88D146EADFDD72E6FD10ED7289745 /* UICollectionView+ARDynamicCacheHeightLayoutCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1846D8395FF5AD189937F622BFCE9506 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IBPCollectionViewCompositionalLayout;
+			target = C6D33972ECD5C3EBB2CA1DDF16BCE422 /* IBPCollectionViewCompositionalLayout */;
+			targetProxy = 00717EA686AD569E1E6C28106538FB75 /* PBXContainerItemProxy */;
+		};
+		573943D551EDBF7B773E8D8937213F1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BEEFormKit;
+			target = D870B60112982FC1799F01E336F810F6 /* BEEFormKit */;
+			targetProxy = B88573121590363DEA2A8B3F2988BDE6 /* PBXContainerItemProxy */;
+		};
+		8348FC0B05688EF40654117FA9D0078B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BEEFormKit_Example";
+			target = 6A90B97FC8613ADCC8123FB382237C60 /* Pods-BEEFormKit_Example */;
+			targetProxy = 2BF5E5B03F61A4E291D27458CF33ECBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03A2F1A47E12B8E770DCC777B0B06F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66285B11291EB03EA3C2018DAC973A8 /* IBPCollectionViewCompositionalLayout.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IBPCollectionViewCompositionalLayout/IBPCollectionViewCompositionalLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IBPCollectionViewCompositionalLayout/IBPCollectionViewCompositionalLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IBPCollectionViewCompositionalLayout/IBPCollectionViewCompositionalLayout.modulemap";
+				PRODUCT_MODULE_NAME = IBPCollectionViewCompositionalLayout;
+				PRODUCT_NAME = IBPCollectionViewCompositionalLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		185B9A1AD76EDEE97E2841C63457FB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A46968058E6A8A5EFBEE9351402E1BA6 /* Pods-BEEFormKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BEEFormKit_Tests/Pods-BEEFormKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BEEFormKit_Tests/Pods-BEEFormKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		52D945A39E43EC9C7A0949E9D1F69382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AD077BA13B2825EB7ACD8443F67882D /* BEEFormKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BEEFormKit/BEEFormKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEEFormKit/BEEFormKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/BEEFormKit/BEEFormKit.modulemap";
+				PRODUCT_MODULE_NAME = BEEFormKit;
+				PRODUCT_NAME = BEEFormKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74F9D319570EA9B4F7E346F652F995B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0144D32F5765FC32CDCAF03640F28D14 /* BEEFormKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BEEFormKit/BEEFormKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEEFormKit/BEEFormKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/BEEFormKit/BEEFormKit.modulemap";
+				PRODUCT_MODULE_NAME = BEEFormKit;
+				PRODUCT_NAME = BEEFormKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		789F29B87AD6500FACB3D7C88764975D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3B58DC59A3C845A1AE8B940A9EA4C6C /* Pods-BEEFormKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BEEFormKit_Example/Pods-BEEFormKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BEEFormKit_Example/Pods-BEEFormKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		905112CFC272179CC8B5456DB0FB4AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9182A2E2CA47F4C75BF5AEA60DA7F7 /* IBPCollectionViewCompositionalLayout.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IBPCollectionViewCompositionalLayout/IBPCollectionViewCompositionalLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IBPCollectionViewCompositionalLayout/IBPCollectionViewCompositionalLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IBPCollectionViewCompositionalLayout/IBPCollectionViewCompositionalLayout.modulemap";
+				PRODUCT_MODULE_NAME = IBPCollectionViewCompositionalLayout;
+				PRODUCT_NAME = IBPCollectionViewCompositionalLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B5E520C9D75669964C272349C32444C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B00A03222708E177D42A1B2E8D4099 /* Pods-BEEFormKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BEEFormKit_Example/Pods-BEEFormKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BEEFormKit_Example/Pods-BEEFormKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FAAE9EC6C206BAA918F55F2A2FBFCF1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9FE709CA86D78C2EB2155E9C1D43250 /* Pods-BEEFormKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BEEFormKit_Tests/Pods-BEEFormKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BEEFormKit_Tests/Pods-BEEFormKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9751B457599EF49A0F5E7A5CD8E6B1AC /* Build configuration list for PBXNativeTarget "Pods-BEEFormKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789F29B87AD6500FACB3D7C88764975D /* Debug */,
+				9B5E520C9D75669964C272349C32444C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FDD731529C30DF4016941B692FCA9BB /* Build configuration list for PBXNativeTarget "Pods-BEEFormKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAE9EC6C206BAA918F55F2A2FBFCF1F /* Debug */,
+				185B9A1AD76EDEE97E2841C63457FB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F8A5CC0A3320737CD7E3A927649F7D /* Build configuration list for PBXNativeTarget "IBPCollectionViewCompositionalLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905112CFC272179CC8B5456DB0FB4AC1 /* Debug */,
+				03A2F1A47E12B8E770DCC777B0B06F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0161E81174B2A87EF260A55666B0502 /* Build configuration list for PBXNativeTarget "BEEFormKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D945A39E43EC9C7A0949E9D1F69382 /* Debug */,
+				74F9D319570EA9B4F7E346F652F995B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

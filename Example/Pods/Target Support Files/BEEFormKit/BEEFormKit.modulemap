@@ -1,0 +1,6 @@
+framework module BEEFormKit {
+  umbrella header "BEEFormKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TextViewCell" customModule="FormKit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="382" height="231"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="382" height="231"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ub1-VJ-y3P">
+                        <rect key="frame" x="0.0" y="0.0" width="382" height="231"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HDI-bl-Whl">
+                                <rect key="frame" x="8" y="8" width="366" height="215"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HDI-bl-Whl" firstAttribute="leading" secondItem="Ub1-VJ-y3P" secondAttribute="leading" constant="8" id="HZE-iy-aRW"/>
+                            <constraint firstAttribute="trailing" secondItem="HDI-bl-Whl" secondAttribute="trailing" constant="8" id="Xaf-WF-v0m"/>
+                            <constraint firstAttribute="bottom" secondItem="HDI-bl-Whl" secondAttribute="bottom" constant="8" id="dDU-a6-S8Q"/>
+                            <constraint firstItem="HDI-bl-Whl" firstAttribute="top" secondItem="Ub1-VJ-y3P" secondAttribute="top" constant="8" id="wu4-bB-31a"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Ub1-VJ-y3P" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="8j0-4J-NJ4"/>
+                <constraint firstItem="Ub1-VJ-y3P" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="PaI-nc-5a1"/>
+                <constraint firstAttribute="trailing" secondItem="Ub1-VJ-y3P" secondAttribute="trailing" id="TZa-r8-YF3"/>
+                <constraint firstAttribute="bottom" secondItem="Ub1-VJ-y3P" secondAttribute="bottom" id="vIJ-bA-rAq"/>
+            </constraints>
+            <size key="customSize" width="382" height="231"/>
+            <connections>
+                <outlet property="textView" destination="HDI-bl-Whl" id="WIZ-Z0-y4j"/>
+            </connections>
+            <point key="canvasLocation" x="381.15942028985512" y="173.77232142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BEEFormKit'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'UICollectionView数据源驱动组件'
   s.homepage         = 'https://github.com/liuxc123/BEEFormKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

@@ -272,14 +272,18 @@ forCellWithReuseIdentifier:(NSString *)identifier {
 
 - (void)ar_reloadSections:(NSIndexSet *)sections {
     [sections enumerateIndexesUsingBlock:^(NSUInteger idx, BOOL *stop) {
-        [[self sizeCache] replaceObjectAtIndex:idx withObject:@[].mutableCopy];
+        if ([[self sizeCache] count] > idx) {
+            [[self sizeCache] replaceObjectAtIndex:idx withObject:@[].mutableCopy];
+        }
     }];
     [self ar_reloadSections:sections];
 }
 
 - (void)ar_deleteSections:(NSIndexSet *)sections {
     [sections enumerateIndexesUsingBlock:^(NSUInteger idx, BOOL *stop) {
-        [[self sizeCache] removeObjectAtIndex:idx];
+        if ([[self sizeCache] count] > idx) {
+            [[self sizeCache] removeObjectAtIndex:idx];
+        }
     }];
     [self ar_deleteSections:sections];
 }
@@ -294,8 +298,10 @@ forCellWithReuseIdentifier:(NSString *)identifier {
 - (void)ar_deleteItemsAtIndexPaths:(NSArray *)indexPaths {
     [indexPaths enumerateObjectsUsingBlock:^(NSIndexPath *obj, NSUInteger idx,
                                              BOOL *stop) {
-        NSMutableArray *section = [self sizeCache][obj.section];
-        [section removeObjectAtIndex:obj.row];
+        if ([self.sizeCache count] > obj.section) {
+            NSMutableArray *section = [self sizeCache][obj.section];
+            [section removeObjectAtIndex:obj.row];
+        }
     }];
     [self ar_deleteItemsAtIndexPaths:indexPaths];
 }

@@ -133,17 +133,17 @@
 		042E598A25AC239D00CBF497 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				042E598B25AC239D00CBF497 /* ConfigurableViewCell.xib */,
-				042E598C25AC239D00CBF497 /* ConfigurableViewCell.swift */,
+				042E598F25AC239D00CBF497 /* AutolayoutSectionView.swift */,
 				042E598D25AC239D00CBF497 /* AutolayoutSectionView.xib */,
 				042E598E25AC239D00CBF497 /* AutoLayoutView.swift */,
-				042E598F25AC239D00CBF497 /* AutolayoutSectionView.swift */,
-				042E599025AC239D00CBF497 /* NibCollectionViewCell.xib */,
-				042E599125AC239D00CBF497 /* TextViewCell.swift */,
-				042E599225AC239D00CBF497 /* SectionBackgroundDecorationView.swift */,
 				042E599325AC239D00CBF497 /* AutoLayoutView.xib */,
-				042E599425AC239D00CBF497 /* TextViewCell.xib */,
+				042E598C25AC239D00CBF497 /* ConfigurableViewCell.swift */,
+				042E598B25AC239D00CBF497 /* ConfigurableViewCell.xib */,
 				042E599525AC239D00CBF497 /* NibCollectionViewCell.swift */,
+				042E599025AC239D00CBF497 /* NibCollectionViewCell.xib */,
+				042E599225AC239D00CBF497 /* SectionBackgroundDecorationView.swift */,
+				042E599125AC239D00CBF497 /* TextViewCell.swift */,
+				042E599425AC239D00CBF497 /* TextViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";

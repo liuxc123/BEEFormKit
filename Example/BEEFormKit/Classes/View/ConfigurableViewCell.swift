@@ -17,6 +17,10 @@ class ConfigurableViewCell: UICollectionViewCell, ConfigurableCell {
         return .init(widthDimension: .fractionalWidth(1.0), heightDimension: .estimated(50))
     }
 
+    static var cacheSize: Bool {
+        return false
+    }
+
     func configure(with text: String) {
         titleLabel.text = text
     }

@@ -142,6 +142,7 @@ typedef NS_ENUM(NSUInteger, ARDynamicSizeCaculateType) {
         size = [cell systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
     }
 
+    // save size chche
     NSMutableArray *sectionCache = [self sizeCache][indexPath.section];
     NSValue *sizeValue = [NSValue valueWithCGSize:(isCacheSize ? size : CGSizeZero)];
     if (hasCache) {
@@ -239,6 +240,7 @@ typedef NS_ENUM(NSUInteger, ARDynamicSizeCaculateType) {
         size = [view systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
     }
 
+    // save size chche
     if (isCacheSize) {
         NSMutableDictionary *sectionCache = [self kindSizeCache][indexPath.section];
         NSValue *sizeValue = [NSValue valueWithCGSize:size];
@@ -400,15 +402,28 @@ forCellWithReuseIdentifier:(NSString *)identifier {
 
 - (BOOL)hasCacheAtIndexPath:(NSIndexPath *)indexPath {
     BOOL hasCache = NO;
+
+    // section
     NSMutableArray *cacheArray = [self sizeCache];
     if (cacheArray.count > indexPath.section) {
-        if ([cacheArray[indexPath.section] count] > indexPath.row) {
+        if ([cacheArray[indexPath.section] count] > indexPath.item) {
             hasCache = YES;
         }
     } else {
         NSUInteger index = cacheArray.count;
         for (; index < indexPath.section + 1; index++) {
             [cacheArray addObject:@[].mutableCopy];
+        }
+    }
+
+    // item
+    NSMutableArray *sectionArray = cacheArray[indexPath.section];
+    if (sectionArray.count > indexPath.item) {
+        hasCache = YES;
+    } else {
+        NSUInteger index = sectionArray.count;
+        for (; index < indexPath.item + 1; index++) {
+            [sectionArray addObject:ARLayoutCellInvalidateValue];
         }
     }
 
@@ -452,3 +467,5 @@ forCellWithReuseIdentifier:(NSString *)identifier {
 }
 
 @end
+
+

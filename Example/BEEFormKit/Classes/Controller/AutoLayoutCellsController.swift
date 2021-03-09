@@ -54,6 +54,10 @@ class AutoLayoutCellsController: UIViewController {
             }
         section.append(item: item)
 
+        let model = NibModel(value1: "My FooterMy FooterMy", value2: "2My FooterMy FooterMy FooterMy FooterMy FooterMy FooterMy FooterMy FooterMy FooterMy FooterMy FooterMy FooterMy FooterMy FooterMy FooterMy FooterMy FooterMy FooterMy FooterMy FooterMy FooterMy Footer")
+        let item2 = FormItem<NibCollectionViewCell>(value: model)
+        section.append(item: item2)
+
         formDirector.append(section: section)
     }
 
